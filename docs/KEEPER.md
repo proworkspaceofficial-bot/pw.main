@@ -4,7 +4,7 @@ Your website has an admin panel. You can change your business details, the
 "What We Buy" wording and photos, and add customer testimonials — without
 asking a developer and without touching any code.
 
-**Your panel:** https://pureweightofficial.github.io/pw/keeper/
+**Your panel:** https://pureweight.gold/keeper/
 
 ---
 

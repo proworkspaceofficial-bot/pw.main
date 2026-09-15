@@ -87,7 +87,14 @@ jobs:
         env:
           GITHUB_PAGES: 'true'
           # Canonical URLs and OG tags point at the Pages origin.
-          NEXT_PUBLIC_SITE_URL: 'https://pureweightofficial.github.io/pw'
+          # Moved off pureweightofficial on 2026-09-15 — that account's only
+          # email was closed by Google and it had no 2FA, so it can never be
+          # signed into again. The repo now lives under proworkspaceofficial-bot
+          # and is named pw.main, so the Pages sub-path is '/pw.main' — the
+          # BASE_PATH override below MUST match the repo name, or every asset
+          # on the preview 404s (next.config.ts defaults it to '/pw').
+          NEXT_PUBLIC_SITE_URL: 'https://proworkspaceofficial-bot.github.io/pw.main'
+          BASE_PATH: '/pw.main'
           # Indexing stays off. This is an unfinished preview carrying a real
           # business's name, and it must not be indexed under any circumstances.
           NEXT_PUBLIC_ALLOW_INDEXING: 'false'

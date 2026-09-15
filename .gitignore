@@ -13,3 +13,6 @@ tsconfig.tsbuildinfo
 
 # Screenshots written by npm run shot:keeper — local only.
 .shots
+
+# A/B font-comparison site exports (full built copies) — local only.
+.ab

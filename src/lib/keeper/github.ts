@@ -28,7 +28,32 @@
  */
 
 const API = "https://api.github.com";
-export const REPO = "pureweightofficial/pw";
+
+/**
+ * WHICH REPOSITORY THE KEEPER COMMITS TO.
+ *
+ * This was the literal "pureweightofficial/pw" until 2026-09-02, when that
+ * account became permanently unreachable: its only email was a Gmail address
+ * Google closed, it had no 2FA, and the password was lost. Three of GitHub's
+ * recovery routes need one of those three things, so the account — and with it
+ * the owner's ability to edit their own website — was gone in a single stroke.
+ *
+ * The code survived (the repo was public and a full local clone existed), but
+ * pointing the Keeper at the new home meant editing a source constant and
+ * redeploying, which is a developer errand standing between an owner and their
+ * own content. An account move should be a setting, not a release.
+ *
+ * So the repository is now configuration, with the literal as fallback. The
+ * fallback matters as much as the variable: a deploy that forgets to set it
+ * keeps working against the known-good repo rather than throwing at module
+ * scope and presenting the owner with a blank panel.
+ *
+ * NEXT_PUBLIC_ because this runs in the browser and only NEXT_PUBLIC_ names are
+ * inlined into client bundles — the same mechanism as the Supabase pair. It is
+ * read at BUILD time, so changing it requires a redeploy, not merely a restart.
+ */
+export const REPO =
+  process.env.NEXT_PUBLIC_KEEPER_REPO || "proworkspaceofficial-bot/pw.main";
 
 /** Files the keeper is allowed to touch. Nothing else, ever. */
 export const CONTENT_PATHS = [
