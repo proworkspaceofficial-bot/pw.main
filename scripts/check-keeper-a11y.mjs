@@ -31,6 +31,21 @@ if (!existsSync(join(out, "keeper", "index.html"))) {
   process.exit(1);
 }
 
+/*
+  THE BASE PATH IS READ FROM THE BUILD, NOT ASSUMED — the same rule, and the
+  same sniff, as check-a11y.mjs. This gate hard-coded "/pw/" and survived only
+  because the repository happened to be named pw; the day the repo moved to
+  pw.main the export's base path became "/pw.main", the sibling gate adapted,
+  and this one 404'd its own keeper page in CI. Two instruments disagreeing
+  about the same out/ directory is exactly what the sibling's comment warns
+  about, so they now share the rule.
+*/
+const keeperHtml = readFileSync(join(out, "keeper", "index.html"), "utf8");
+const baseMatch = keeperHtml.match(/href="([^"]*\/_next\/static\/[^"]*\.css)"/);
+const base = baseMatch
+  ? baseMatch[1].slice(0, baseMatch[1].indexOf("/_next/")) + "/"
+  : "/";
+
 const MIME = {
   ".html": "text/html; charset=utf-8", ".css": "text/css", ".js": "text/javascript",
   ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png",
@@ -40,8 +55,8 @@ const MIME = {
 
 const server = createServer((req, res) => {
   const p = decodeURIComponent(req.url.split("?")[0]);
-  if (!p.startsWith("/pw/")) { res.writeHead(404).end(); return; }
-  let file = join(out, p.slice(4));
+  if (!p.startsWith(base)) { res.writeHead(404).end(); return; }
+  let file = join(out, p.slice(base.length));
   try { if (statSync(file).isDirectory()) file = join(file, "index.html"); }
   catch { res.writeHead(404).end(); return; }
   try {
@@ -120,7 +135,7 @@ await page.route("https://api.github.com/**", (route) => {
 
 const failures = [];
 
-await page.goto(`http://127.0.0.1:${port}/pw/keeper/`, { waitUntil: "load" });
+await page.goto(`http://127.0.0.1:${port}${base}keeper/`, { waitUntil: "load" });
 await page.waitForTimeout(400);
 /*
   TWO DOORS SINCE SUPABASE AUTH ARRIVED. A build with NEXT_PUBLIC_SUPABASE_*
