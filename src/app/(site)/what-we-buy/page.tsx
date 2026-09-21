@@ -42,7 +42,7 @@ export default function WhatWeBuyPage() {
           </p>
 
           <div className="article-body mt-14">
-            <h2 id="jewelry" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Gold jewelry — in any condition</h2>
+            <h2 id="jewellery" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Gold jewelry — in any condition</h2>
             <p>
               Jewelry is what most people actually own: chains, rings,
               bracelets, earrings, pendants, and the drawer of odds and ends
