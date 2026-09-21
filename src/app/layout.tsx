@@ -137,33 +137,33 @@ export const metadata: Metadata = {
   */
   verification: { google: 'upW5Snxnz5_3kHXYT9uR6R3PRFixLIAEyYPr9ukFDDU' },
   title: {
-    default: 'Pureweight Gold Exchange — We Buy Gold, Silver, Coins & Bullion',
-    template: '%s — Pureweight Gold Exchange',
+    default: 'PureWeight Gold Exchange — We Buy Gold, Silver, Coins & Bullion',
+    template: '%s — PureWeight Gold Exchange',
   },
   description:
-    'We buy gold and silver over the counter — jewellery, coins and bullion. Your items examined and weighed in front of you, with the figure explained before you decide. Live market reference prices.',
+    'PureWeight Gold Exchange buys gold, silver, jewelry, coins and bullion at our Gainesville, Georgia shop. Items are examined and weighed in person before you decide whether to sell.',
   applicationName: brand.name,
   keywords: [
-    'sell gold',
-    'gold exchange',
-    'bullion exchange',
-    'sell silver',
-    'gold hallmarks',
-    'precious metal assessment',
-    'private gold appointment',
+    'sell gold Gainesville GA',
+    'gold buyer Gainesville GA',
+    'sell silver Gainesville GA',
+    'sell jewelry Gainesville GA',
+    'coin buyer Gainesville GA',
+    'bullion buyer Gainesville GA',
+    'precious metal buyer Gainesville GA',
   ],
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     siteName: brand.name,
-    title: 'Pureweight Gold Exchange — We Buy Gold, Silver, Coins & Bullion',
+    title: 'PureWeight Gold Exchange — We Buy Gold, Silver, Coins & Bullion',
     description:
       'Gold and silver bought over the counter. Weighed in front of you, with the figure explained before you decide.',
     url: brand.url,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pureweight Gold Exchange',
+    title: 'PureWeight Gold Exchange',
     description: 'We buy gold and silver, weighed and valued in front of you.',
   },
   // Off until the placeholders are cleared and someone opts in deliberately.
