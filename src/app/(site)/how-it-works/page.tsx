@@ -49,15 +49,13 @@ export default function HowItWorksPage() {
             <span className="accent-italic text-gold-high/90"> to true value</span>
           </h1>
           <p className="mt-8 max-w-xl text-lead text-ivory/72">
-            Four stages, in a fixed order, with nothing agreed until the last
-            one. Each stage produces a fact the next one depends on — which is
-            what separates a measured valuation from a number said out loud.
+            When you bring gold, silver, jewelry, coins or bullion to our Gainesville shop, the process follows four stages. Each stage produces a fact the next one depends on — which is what separates a measured evaluation from a number said out loud.
           </p>
 
           <div className="article-body mt-14">
             <h2>Stage one: bring it in</h2>
             <p>
-              Come to the counter with whatever you have — jewellery, coins,
+              Come to the counter with whatever you have — jewelry, coins,
               bars, or a drawer of unsorted odds and ends. Nothing needs
               cleaning, repairing, sorting or pre-valuing, and there is no
               minimum worth bringing. Broken chains, single earrings and
@@ -70,7 +68,7 @@ export default function HowItWorksPage() {
               The one preparation genuinely worth doing is understanding the
               units before you arrive. Precious metals are weighed in troy
               ounces — 31.1035 grams, about ten per cent heavier than the
-              everyday ounce — and purity is stated in carats or parts per
+              everyday ounce — and purity is stated in karats or parts per
               thousand. Both are explained plainly in our{' '}
               <Link href="/purity-and-weight">purity and weight guide</Link>,
               and knowing them is the difference between following a valuation
@@ -102,7 +100,7 @@ export default function HowItWorksPage() {
               how pure it is, and the market reference it is being measured
               against. Precious-metal prices move through the trading day, so
               the figure relates to the market at the moment of assessment —
-              and the working is shown rather than summarised. You should be
+              and the working is shown rather than summarized. You should be
               able to see how weight, fineness and the reference price
               produced the number, because a figure you can check is worth
               more than a bigger figure you cannot.
@@ -111,7 +109,7 @@ export default function HowItWorksPage() {
               This is also where the two-reading rule for coins applies: if a
               coin is worth more as a coin than as metal — a rare date, a low
               mintage, an unusual strike — that is said plainly, rather than
-              pricing a collectable as scrap. The same honesty runs the other
+              pricing a collectible as scrap. The same honesty runs the other
               way: plated items and rolled gold are identified as what they
               are, before any number is put on the table.
             </p>
