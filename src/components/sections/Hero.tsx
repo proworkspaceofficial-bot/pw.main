@@ -11,7 +11,7 @@ const heroCopy = opener("hero", {
   eyebrow: "Precision in Every Gram",
   heading: "Where Gold Finds",
   accent: "Its True Weight.",
-  lead: "We buy gold and silver over the counter — jewellery, coins and bullion. Your items examined and weighed in front of you, against the live market.",
+  lead: "We buy gold and silver over the counter — jewelry, coins and bullion. Your items examined and weighed in front of you, against the live market.",
 });
 
 /**
