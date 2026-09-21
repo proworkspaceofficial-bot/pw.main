@@ -60,11 +60,11 @@ export default function PurityAndWeightPage() {
               weight before the market price ever enters the calculation.
             </p>
             <p>
-              One warning about the word itself: karat with a C measures gold
-              purity, while karat is the American spelling of the same thing —
-              but <em>karat</em> applied to gemstones is a unit of weight
-              (0.2 grams), not purity. A &ldquo;2-karat ring&rdquo; in a
-              jeweller&apos;s window is describing its diamond, not its gold.
+              One warning about the terminology: in American usage, <em>karat</em>
+              with a K measures gold purity. <em>Carat</em> with a C, when
+              applied to gemstones, is a unit of weight (0.2 grams), not purity.
+              A &ldquo;2-carat diamond&rdquo; is describing the stone&apos;s
+              weight, not the gold around it.
             </p>
 
             <h2>Millesimal fineness: the same truth in thousandths</h2>
