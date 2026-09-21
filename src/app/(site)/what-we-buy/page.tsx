@@ -17,7 +17,7 @@ import { pageMetadata } from '@/lib/seo';
 
 const TITLE = 'What We Buy — Gold, Silver, Coins & Bullion';
 const DESCRIPTION =
-  'What a gold buyer will actually take: jewellery in any condition, sterling and continental silver, sovereigns and bullion coins, and cast or minted bars — and what decides the value of each.';
+  'What a gold buyer will actually take: jewelry in any condition, sterling and continental silver, sovereigns and bullion coins, and cast or minted bars — and what decides the value of each.';
 
 export const metadata: Metadata = pageMetadata(
   "what-we-buy",
@@ -36,15 +36,15 @@ export default function WhatWeBuyPage() {
             <span className="accent-italic text-gold-high/90"> and bullion</span>
           </h1>
           <p className="mt-8 max-w-xl text-lead text-ivory/72">
-            Four categories cover nearly everything that comes across a
+            At our Gainesville, Georgia shop, four categories cover nearly everything that comes across a
             precious-metal counter. Here is what belongs in each, what decides
             its value, and what is worth knowing before you bring yours in.
           </p>
 
           <div className="article-body mt-14">
-            <h2 id="jewellery" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Gold jewellery — in any condition</h2>
+            <h2 id="jewellery" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Gold jewelry — in any condition</h2>
             <p>
-              Jewellery is what most people actually own: chains, rings,
+              Jewelry is what most people actually own: chains, rings,
               bracelets, earrings, pendants, and the drawer of odds and ends
               that accumulates around them. The condition bar is far lower than
               sellers expect. A snapped chain contains exactly as much gold as
@@ -54,12 +54,12 @@ export default function WhatWeBuyPage() {
               almost never returns more than it costs.
             </p>
             <p>
-              What decides jewellery&apos;s value is not how it looks but what
-              it measures: the carat of the alloy, the weight of actual gold
+              What decides jewelry&apos;s value is not how it looks but what
+              it measures: the karat of the alloy, the weight of actual gold
               once stones and steel springs are allowed for, and the market
-              reference on the day. A heavy 9ct chain can be worth less than a
-              much lighter 22ct bangle, because a 9ct alloy is only nine parts
-              gold in twenty-four. If the carat marks on your pieces are worn
+              reference on the day. A heavy 9K chain can be worth less than a
+              much lighter 22K bangle, because a 9K alloy is only nine parts
+              gold in twenty-four. If the karat marks on your pieces are worn
               or missing, that is normal — fineness is then established by
               examination rather than read off the metal. Our guide to{' '}
               <Link href="/purity-and-weight">purity and weight</Link> explains
@@ -78,7 +78,7 @@ export default function WhatWeBuyPage() {
               its own market price. The pieces that carry real value are solid
               silver: sterling (925 parts per thousand, the standard for
               British hallmarked silver), continental grades such as 800 and
-              835, and older coin silver. Jewellery, cutlery, tableware,
+              835, and older coin silver. Jewelry, cutlery, tableware,
               candlesticks and dressing-table sets all qualify if the metal
               itself is solid.
             </p>
@@ -99,7 +99,7 @@ export default function WhatWeBuyPage() {
               difference can be worth real money to you. The first reading is
               bullion value: the coin&apos;s fine metal content multiplied by
               the market reference. A full gold sovereign, for example, has a
-              fixed specification — 7.99 grams of 22ct gold, of which about
+              fixed specification — 7.99 grams of 22K gold, of which about
               7.32 grams is pure — so its floor value moves directly with the
               gold price. Krugerrands, Britannias, and most modern bullion
               issues work the same way.
@@ -109,7 +109,7 @@ export default function WhatWeBuyPage() {
               than their metal because of date, mint mark, rarity or
               condition, and melting one down would destroy that premium. The
               professional obligation is to tell you when the coin in your
-              hand is worth more as a coin — pre-decimal proof sets, low-
+              hand is worth more as a coin — older U.S. and world proof sets, low-
               mintage years and unusual strikes deserve that check. A pile of
               inherited coins should never be priced as scrap by default.
             </p>
@@ -121,7 +121,7 @@ export default function WhatWeBuyPage() {
               a refiner&apos;s mark and a serial number. Those stamps are
               claims, and claims get verified: the stated weight is checked on
               the scale, and the fineness is verified against the metal rather
-              than assumed from the engraving. Recognised bullion in good
+              than assumed from the engraving. Recognized bullion in good
               order is handled on its own terms — as investment metal with a
               published specification — rather than being treated as scrap.
             </p>
@@ -141,7 +141,7 @@ export default function WhatWeBuyPage() {
               frames were made properly. If it might be gold or silver, it is
               worth an assessment — the answer costs you a conversation.
               Conversely, some convincing items contain nothing recoverable:
-              rolled gold, gold-filled pieces and costume jewellery imitate
+              rolled gold, gold-filled pieces and costume jewelry imitate
               the look without the metal. Being told clearly which is which is
               precisely what the counter visit is for.
             </p>
@@ -151,7 +151,7 @@ export default function WhatWeBuyPage() {
               Nothing needs sorting, cleaning or valuing beforehand, and there
               is no minimum worth bringing. If you want to prepare anyway, the
               most useful step is reading the{' '}
-              <Link href="/faq">frequently asked questions</Link> — carat,
+              <Link href="/faq">frequently asked questions</Link> — karat,
               troy ounces and hallmarks in plain language — so the figures you
               hear at the counter already make sense.
             </p>

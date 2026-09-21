@@ -17,9 +17,9 @@ import { pageMetadata } from '@/lib/seo';
  * confirmed, visibly pending when not. No third option exists.
  */
 
-const TITLE = 'About Pureweight — Measurement Over Persuasion';
+const TITLE = 'About PureWeight — Measurement Over Persuasion';
 const DESCRIPTION =
-  'What Pureweight Gold Exchange is built on: items weighed in front of you, the working shown before any decision, and a valuation you can check rather than take on faith.';
+  'What PureWeight Gold Exchange is built on: items weighed in front of you, the working shown before any decision, and a valuation you can check rather than take on faith.';
 
 export const metadata: Metadata = pageMetadata(
   "about",
@@ -87,7 +87,7 @@ export default function AboutPage() {
 
             <h2>Plain language as policy</h2>
             <p>
-              The vocabulary of this trade — carat, millesimal fineness,
+              The vocabulary of this trade — karat, millesimal fineness,
               troy ounces, hallmarks — is simple once someone bothers to
               explain it, and opaque when nobody does. We publish the
               explanations: a working reference on{' '}

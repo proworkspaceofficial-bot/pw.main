@@ -7,7 +7,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata('contact', '/contact', {
   title: 'Contact',
   description:
-    'Contact Pureweight Gold Exchange to arrange a private valuation or to ask a question about gold weight, purity and evaluation.',
+    'Contact PureWeight Gold Exchange to arrange a private valuation or to ask a question about gold weight, purity and evaluation.',
 });
 
 /**
@@ -62,10 +62,10 @@ export default function ContactPage() {
           <div className="lg:col-span-5">
             <Eyebrow className="mb-8">Contact</Eyebrow>
             <h1 id="contact-heading" className="font-display text-chapter text-ivory">
-              Speak with <span className="accent-italic text-gold-high/90">Pureweight</span>
+              Speak with <span className="accent-italic text-gold-high/90">PureWeight</span>
             </h1>
             <p className="mt-8 max-w-md text-lead text-ivory/72">
-              For a valuation, bring the item to a private appointment. For anything else — a
+              For a purchase evaluation, bring your items to our Gainesville shop. For anything else — a
               question about a hallmark, what to bring, or how the process works — get in touch and
               we will answer plainly.
             </p>
@@ -114,9 +114,9 @@ export default function ContactPage() {
             </dl>
 
             <p className="mt-8 text-xs leading-relaxed text-ash">
-              {brand.shortName} does not provide valuations by telephone, email or through this
-              website. Any figure is established in person, after the item has been weighed and
-              examined.
+              {brand.shortName} does not provide binding purchase offers by telephone, email or through this
+              website. Purchase offers are established in person, after the item has been weighed and
+              examined at the shop.
             </p>
           </div>
         </div>
