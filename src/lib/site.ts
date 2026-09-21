@@ -45,7 +45,7 @@ import { BUSINESS_RULES, DAYS, SERVICE_IDS, TIME_PATTERN } from "@/lib/content-s
  *
  * What this constant buys is that the decision costs one line when it comes.
  */
-export const SITE_LOCALE = "en-GB";
+export const SITE_LOCALE = "en-US";
 
 export type Verifiable<T> =
   { status: "verified"; value: T } | { status: "placeholder"; label: string };
@@ -71,8 +71,8 @@ const pending = (label: string): Verifiable<never> => ({
 /* -------------------------------------------------------------------------- */
 
 export const brand = {
-  name: "Pureweight Gold Exchange",
-  shortName: "Pureweight",
+  name: "PureWeight Gold Exchange",
+  shortName: "PureWeight",
   monogram: "PW",
   /**
    * Positioning line. This is brand voice, not a factual claim — it describes
@@ -312,7 +312,7 @@ export const journey = [
   {
     step: "01",
     title: "Bring It In",
-    body: "Come to the shop with whatever you have — jewellery, coins, bars, or a drawer of odds and ends.",
+    body: "Come to the shop with whatever you have — jewelry, coins, bars, or a drawer of odds and ends.",
     detail:
       "Nothing needs sorting, cleaning or valuing beforehand. Broken chains, single earrings and pieces with the stones still in them are all perfectly normal, and there is no minimum worth bringing.",
     tilt: -2.4,
@@ -787,13 +787,13 @@ export function buildLocalBusinessJsonLd(): Record<string, unknown> | null {
   const address = verifiedValue(business.address);
   const legalName = verifiedValue(business.legalName);
 
-  if (!address || !legalName) return null;
+  if (!address) return null;
 
   const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: brand.name,
-    legalName,
+    ...(legalName ? { legalName } : {}),
     url: brand.url,
     address,
   };
