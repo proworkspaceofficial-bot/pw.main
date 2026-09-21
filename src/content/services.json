@@ -1,5 +1,5 @@
 {
-  "jewelry": {
+  "jewellery": {
     "summary": "Worn, broken, inherited or unwanted — in any condition.",
     "body": "Chains, rings, bracelets, earrings and pendants, whether whole or in pieces. Nothing needs to be a matching pair, in working order, or worth anything in particular before it is worth bringing in.",
     "points": [
@@ -7,7 +7,7 @@
       "Broken and single pieces",
       "Stones and settings allowed for"
     ],
-    "image": "/img/jewelry.jpg",
+    "image": "/img/jewellery.jpg",
     "imageAlt": "A wide diamond-set gold bangle photographed against black, its stones catching a single warm light."
   },
   "silver": {
