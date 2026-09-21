@@ -20,9 +20,9 @@ import { WhyPureweight } from "@/components/sections/WhyPureweight";
   rather than producing a titleless homepage.
 */
 export const metadata: Metadata = pageMetadata("home", "/", {
-  title: "Pureweight Gold Exchange — We Buy Gold, Silver, Coins & Bullion",
+  title: "PureWeight Gold Exchange — We Buy Gold, Silver, Coins & Bullion",
   description:
-    "We buy gold and silver over the counter — jewellery, coins and bullion. Your items examined and weighed in front of you, with the figure explained before you decide. Live market reference prices.",
+    "PureWeight Gold Exchange buys gold, silver, jewelry, coins and bullion at our Gainesville, Georgia shop. Items are examined and weighed in person before you decide whether to sell.",
 });
 
 /**
