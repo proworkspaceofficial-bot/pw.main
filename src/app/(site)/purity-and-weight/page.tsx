@@ -7,15 +7,15 @@ import { pageMetadata } from '@/lib/seo';
  * PURITY & WEIGHT — the dedicated page behind the nav item.
  *
  * The reference chapter. Everything here is trade-standard, independently
- * checkable fact: the carat scale, millesimal fineness, hallmarking, troy
+ * checkable fact: the karat scale, millesimal fineness, hallmarking, troy
  * weight, and how testing works in general. It is deliberately the most
  * citation-shaped page on the site — definitions first, tables where tables
  * are honest, and no business claims anywhere.
  */
 
-const TITLE = 'Purity & Weight — Carat, Fineness, Hallmarks and Troy Ounces';
+const TITLE = 'Purity & Weight — Karat, Fineness, Hallmarks and Troy Ounces';
 const DESCRIPTION =
-  'The measurements behind every gold valuation: the carat scale and millesimal fineness, how hallmarks are read, why precious metals use troy ounces, and how purity is actually verified.';
+  'The measurements behind every gold valuation: the karat scale and millesimal fineness, how hallmarks are read, why precious metals use troy ounces, and how purity is actually verified.';
 
 export const metadata: Metadata = pageMetadata(
   "purity-and-weight",
@@ -23,12 +23,12 @@ export const metadata: Metadata = pageMetadata(
   { title: TITLE, description: DESCRIPTION },
 );
 
-const FINENESS_TABLE: { carat: string; fineness: string; goldContent: string }[] = [
-  { carat: '24ct', fineness: '999', goldContent: 'Pure gold — 99.9%+' },
-  { carat: '22ct', fineness: '916', goldContent: '22 parts in 24 — 91.6%' },
-  { carat: '18ct', fineness: '750', goldContent: '18 parts in 24 — 75.0%' },
-  { carat: '14ct', fineness: '585', goldContent: '14 parts in 24 — 58.5%' },
-  { carat: '9ct', fineness: '375', goldContent: '9 parts in 24 — 37.5%' },
+const FINENESS_TABLE: { karat: string; fineness: string; goldContent: string }[] = [
+  { karat: '24K', fineness: '999', goldContent: 'Pure gold — 99.9%+' },
+  { karat: '22K', fineness: '916', goldContent: '22 parts in 24 — 91.6%' },
+  { karat: '18K', fineness: '750', goldContent: '18 parts in 24 — 75.0%' },
+  { karat: '14K', fineness: '585', goldContent: '14 parts in 24 — 58.5%' },
+  { karat: '9K', fineness: '375', goldContent: '9 parts in 24 — 37.5%' },
 ];
 
 export default function PurityAndWeightPage() {
@@ -48,29 +48,29 @@ export default function PurityAndWeightPage() {
           </p>
 
           <div className="article-body mt-14">
-            <h2>The carat scale: purity in twenty-fourths</h2>
+            <h2>The karat scale: purity in twenty-fourths</h2>
             <p>
-              Carat expresses how much of an alloy is gold, as a fraction of
-              24. Pure gold is 24 carat; a 9ct alloy is nine parts gold and
+              Karat expresses how much of an alloy is gold, as a fraction of
+              24. Pure gold is 24 karat; a 9K alloy is nine parts gold and
               fifteen parts other metals. The remainder — usually copper,
-              silver or zinc — exists for hardness and colour, and it carries
+              silver or zinc — exists for hardness and color, and it carries
               no precious-metal value. This single fact explains most of the
-              surprises first-time sellers meet: a chunky 9ct chain can be
-              outvalued by a delicate 22ct bangle, because carat multiplies
+              surprises first-time sellers meet: a chunky 9K chain can be
+              outvalued by a delicate 22K bangle, because karat multiplies
               weight before the market price ever enters the calculation.
             </p>
             <p>
-              One warning about the word itself: carat with a C measures gold
+              One warning about the word itself: karat with a C measures gold
               purity, while karat is the American spelling of the same thing —
-              but <em>carat</em> applied to gemstones is a unit of weight
-              (0.2 grams), not purity. A &ldquo;2-carat ring&rdquo; in a
+              but <em>karat</em> applied to gemstones is a unit of weight
+              (0.2 grams), not purity. A &ldquo;2-karat ring&rdquo; in a
               jeweller&apos;s window is describing its diamond, not its gold.
             </p>
 
             <h2>Millesimal fineness: the same truth in thousandths</h2>
             <p>
               Modern marks usually state purity in parts per thousand. The
-              mapping to carats is fixed and worth knowing by heart, because
+              mapping to karats is fixed and worth knowing by heart, because
               the number stamped inside your ring band is almost certainly one
               of these:
             </p>
@@ -89,19 +89,19 @@ export default function PurityAndWeightPage() {
             */}
             <table className="fineness-table">
               <caption className="sr-only">
-                Carat to millesimal fineness, with the gold content of each
+                Karat to millesimal fineness, with the gold content of each
               </caption>
               <thead>
                 <tr>
-                  <th scope="col">Carat</th>
+                  <th scope="col">Karat</th>
                   <th scope="col">Fineness</th>
                   <th scope="col">Gold content</th>
                 </tr>
               </thead>
               <tbody>
                 {FINENESS_TABLE.map((row) => (
-                  <tr key={row.carat}>
-                    <th scope="row">{row.carat}</th>
+                  <tr key={row.karat}>
+                    <th scope="row">{row.karat}</th>
                     <td>{row.fineness}</td>
                     <td>{row.goldContent}</td>
                   </tr>
@@ -109,9 +109,9 @@ export default function PurityAndWeightPage() {
               </tbody>
             </table>
             <p>
-              A ring stamped 750 and a ring sold as 18ct are making exactly
-              the same claim. Continental jewellery leans on the millesimal
-              numbers; older British pieces often carry the carat figure
+              A ring stamped 750 and a ring sold as 18K are making exactly
+              the same claim. Continental jewelry leans on the millesimal
+              numbers; older British pieces often carry the karat figure
               alongside. Silver uses the same system — sterling is 925, and
               continental grades such as 800 and 835 are common in inherited
               cutlery and tableware.
@@ -166,7 +166,7 @@ export default function PurityAndWeightPage() {
               always the explanation.
             </p>
             <p>
-              The gram sidesteps the whole problem, which is why itemised
+              The gram sidesteps the whole problem, which is why itemized
               assessments usually speak in grams: a stated weight in grams,
               times a fineness, times a per-gram reference, is arithmetic
               anyone can check on their phone.
@@ -177,9 +177,9 @@ export default function PurityAndWeightPage() {
               Stones, clasps, springs, pins, solder and cores all add mass
               without adding precious metal. A proper valuation separates
               them: gemstones are allowed for rather than bought as gold, and
-              steel mechanisms are excluded openly. This is why an itemised
+              steel mechanisms are excluded openly. This is why an itemized
               figure and a single lump-sum figure for the same pile can
-              differ considerably — and why the itemised one deserves more of
+              differ considerably — and why the itemized one deserves more of
               your trust. What that assessment looks like in practice, stage
               by stage, is covered in <Link href="/how-it-works">how it works</Link>;
               what each category of item is assessed for is in{' '}
