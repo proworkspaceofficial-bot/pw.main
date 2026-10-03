@@ -2,7 +2,7 @@
   "general": [
     {
       "question": "What does karat actually mean?",
-      "answer": "Karat describes how much of an alloy is gold, expressed in twenty-fourths. 24 karat is pure gold. 22K is 22 parts in 24, usually marked 916 parts per thousand; 18K is 750; 14K is 585; 9K is 375. Everything that is not gold is alloy — typically copper, silver or zinc — and it carries no precious-metal value. This is why a heavy 9K chain can be worth less than a much lighter 22K one."
+      "answer": "Karat describes how much of an alloy is gold, expressed in twenty-fourths. 24 karat is pure gold. 22K is 22 parts in 24, usually marked 916 parts per thousand; 18K is 750; 14K is 585; 9K is 375. The remainder is other metals, which may include copper, silver, or zinc. The gold content is the main basis of a gold-buying offer."
     },
     {
       "question": "Why is my gold weighed in troy ounces?",
@@ -14,7 +14,7 @@
     },
     {
       "question": "Why might my piece be worth less than its total weight suggests?",
-      "answer": "Because not all of what you are holding is gold. Stones, clasps, spring mechanisms, pins and solder all add weight without adding precious metal, and plated items carry only a microscopic layer of gold over a base metal. A professional evaluation separates these out and tells you what it has excluded, which is why an itemized assessment and a single lump figure can differ considerably."
+      "answer": "An item’s total weight may include stones, steel springs, and other non-gold components. Clasps and solder may also contain gold, sometimes at a different purity. We assess the materials and explain any weight deductions used in calculating your offer."
     },
     {
       "question": "Should I clean or repair anything before bringing it in?",
@@ -22,7 +22,7 @@
     },
     {
       "question": "Can I get a valuation over the phone or from a photograph?",
-      "answer": "No, and you should be wary of anyone who offers one. A figure quoted before a piece has been weighed and examined is a guess. PureWeight establishes value in person, from measured weight and verified fineness. Photographs sent with an enquiry are useful for preparing, but they are not a valuation."
+      "answer": "A phone conversation or photograph may help us discuss an item, but it cannot establish its verified weight, purity, or condition. PureWeight makes final purchase offers only after examining and weighing items in person."
     }
   ]
 }

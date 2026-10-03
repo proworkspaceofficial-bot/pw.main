@@ -330,13 +330,13 @@ export const journey = [
     title: "An Offer Against the Market",
     body: "You are told what the metal weighs, how pure it is, and what we can pay for it.",
     detail:
-      "Precious metal prices move through the trading day, so the figure relates to the market at that moment. How it is arrived at is shown rather than summarised — weight, fineness, and the market reference it is measured against.",
+      "We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions.",
     tilt: -0.5,
   },
   {
     step: "04",
     title: "Accept, or Take It Home",
-    body: "If the figure suits you the sale completes there and then. If it does not, your items go back in your pocket.",
+    body: "If you accept the offer, we explain and complete the required transaction steps and confirm how payment will be made. If you decline, you keep your items.",
     detail:
       "There is no obligation at any point and no charge for having looked. Declining is an ordinary outcome and is treated as one.",
     tilt: 0,
@@ -539,7 +539,7 @@ export const assayFactors = [
     key: "reference",
     label: "Market Reference",
     reading: "Applied",
-    body: "Verified weight and fineness are read against the market reference the business works to at the time of assessment. This site does not display live rates.",
+    body: "We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions. This site does not display live rates.",
   },
   {
     key: "evaluation",
@@ -577,7 +577,7 @@ export const pillars = [
   },
   {
     title: "The working is shown",
-    body: "Weight, the purity we have established, and how the two produce the figure — explained before you are asked to decide anything.",
+    body: "We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions.",
   },
   {
     title: "No obligation, ever",

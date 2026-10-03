@@ -96,38 +96,23 @@ export default function HowItWorksPage() {
 
             <h2>Stage three: an offer against the market</h2>
             <p>
-              A serious offer has three visible parts: what the metal weighs,
-              how pure it is, and the market reference it is being measured
-              against. Precious-metal prices move through the trading day, so
-              the figure relates to the market at the moment of assessment —
-              and the working is shown rather than summarized. You should be
-              able to see how weight, fineness and the reference price
-              produced the number, because a figure you can check is worth
-              more than a bigger figure you cannot.
+              We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions.
             </p>
             <p>
               This is also where the two-reading rule for coins applies: if a
               coin is worth more as a coin than as metal — a rare date, a low
               mintage, an unusual strike — that is said plainly, rather than
               pricing a collectible as scrap. The same honesty runs the other
-              way: plated items and rolled gold are identified as what they
-              are, before any number is put on the table.
+              way: we identify plated, gold-filled, and rolled-gold items,
+              which we do not purchase.
             </p>
 
             <h2>Stage four: accept, or take it home</h2>
             <p>
-              If the figure suits you, the sale completes there and then. If
-              it does not, your items go back in your pocket, and that
-              outcome is treated as an ordinary one — not a negotiation
-              tactic, not a failure. There is no obligation at any point, and
-              declining today does not prejudice a different decision next
-              month. Gold does not spoil.
+              If you accept the offer, we explain and complete the required transaction steps and confirm how payment will be made. If you decline, you keep your items.
             </p>
             <p>
-              Between those two outcomes sits a third, underused option:
-              taking the itemised figures away with you. Because the working
-              is shown, the assessment is portable — you can compare it, sit
-              with it, or check it against the market reference yourself.
+              You are welcome to ask questions and take time to consider the offer. There is no obligation to sell.
             </p>
 
             <h2>Why the order matters</h2>

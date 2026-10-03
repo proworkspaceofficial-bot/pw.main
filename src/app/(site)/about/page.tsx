@@ -69,8 +69,8 @@ export default function AboutPage() {
               Three commitments, each one checkable in the room. First, the
               scale stays where you can see it, and every item is examined
               and weighed in front of you — the weight becomes a shared fact
-              rather than a claim. Second, the working is shown: weight,
-              fineness, and the market reference they are read against, so
+              rather than a claim. Second, the working is shown: assessed metal weight,
+              purity, market reference, buying rate, and any deductions, so
               you can follow how the figure was constructed instead of being
               handed its conclusion. Third, the decision stays yours, made
               after all the numbers are on the table, with taking your items

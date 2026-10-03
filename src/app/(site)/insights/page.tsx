@@ -140,10 +140,7 @@ export default function InsightsPage() {
                 What is attached to the gold matters
               </dt>
               <dd className="mt-3 text-lead text-ivory/72">
-                Stones, clasps, springs, solder and plating all add weight without adding gold. A
-                professional evaluation separates them out rather than weighing the piece whole,
-                which is why an itemised assessment and a single lump figure can differ
-                considerably.
+                An item’s total weight may include stones, steel springs, and other non-gold components. Clasps and solder may also contain gold, sometimes at a different purity. We assess the materials and explain any weight deductions used in calculating your offer.
               </dd>
             </div>
           </dl>

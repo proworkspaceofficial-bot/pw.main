@@ -28,13 +28,13 @@ const DOCS: Record<string, LegalDoc> = {
   privacy: {
     title: 'Privacy Policy',
     intro:
-      'How Pureweight Gold Exchange collects, uses, stores and protects personal information, including details and images submitted through the valuation enquiry form.',
+      'How PureWeight Gold Exchange handles personal information received through customer communications, website use, and in-person transactions.',
     sections: [
       { heading: 'Who we are', requirement: 'Registered legal entity, trading name, address and data-controller contact.' },
-      { heading: 'What we collect', requirement: 'Enquiry fields, uploaded images, technical data, and anything captured in person.' },
+      { heading: 'What we collect', requirement: 'Customer record-keeping information and technical website data, with the actual fields and sources to be documented.' },
       { heading: 'Why we collect it', requirement: 'The lawful basis for each purpose — contract, legitimate interest or consent.' },
-      { heading: 'How long we keep it', requirement: 'Retention period for enquiries, images and completed transaction records.' },
-      { heading: 'Who we share it with', requirement: 'Named processors: hosting, form delivery, analytics, payment or settlement providers.' },
+      { heading: 'How long we keep it', requirement: 'Retention periods for customer records, communications, and technical website data.' },
+      { heading: 'Who we share it with', requirement: 'Document any required reporting and service providers that handle records or technical data.' },
       { heading: 'Where it is stored', requirement: 'Storage locations and any transfers outside the visitor’s jurisdiction.' },
       { heading: 'Your rights', requirement: 'Access, rectification, erasure, portability, objection, and how to exercise each.' },
       { heading: 'Complaints', requirement: 'The supervisory authority and how to contact it.' },
@@ -122,6 +122,18 @@ export default async function LegalPage({ params }: { params: Promise<{ slug: st
           {doc.title}
         </h1>
         <p className="mt-8 text-lead text-ivory/72">{doc.intro}</p>
+
+        {slug === 'privacy' ? (
+          <section className="mt-10 inset-panel p-8" aria-labelledby="customer-records-heading">
+            <h2 id="customer-records-heading" className="font-display text-2xl text-ivory">
+              Customer information
+            </h2>
+            <p className="mt-4 text-sm leading-relaxed text-ivory/72">
+              Personal information we collect from customers is used for record-keeping purposes only.
+              We do not sell your personal information to anyone, and we do not add you to mailing lists.
+            </p>
+          </section>
+        ) : null}
 
         <div className="mt-10 inset-panel p-8">
           <p className="label mb-4">Not yet published</p>

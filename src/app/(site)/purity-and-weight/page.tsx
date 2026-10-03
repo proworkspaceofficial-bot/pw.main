@@ -42,9 +42,7 @@ export default function PurityAndWeightPage() {
             <span className="accent-italic text-gold-high/90"> It is measured.</span>
           </h1>
           <p className="mt-8 max-w-xl text-lead text-ivory/72">
-            Every honest gold valuation is built from two measurements — how
-            much metal, and how pure — read against a market reference. This
-            page explains all three, in the units the trade actually uses.
+            An offer depends on the item’s weight, purity, non-gold components, the current spot price, and the buying rate applied. We explain how those factors produce your offer.
           </p>
 
           <div className="article-body mt-14">
@@ -52,12 +50,7 @@ export default function PurityAndWeightPage() {
             <p>
               Karat expresses how much of an alloy is gold, as a fraction of
               24. Pure gold is 24 karat; a 9K alloy is nine parts gold and
-              fifteen parts other metals. The remainder — usually copper,
-              silver or zinc — exists for hardness and color, and it carries
-              no precious-metal value. This single fact explains most of the
-              surprises first-time sellers meet: a chunky 9K chain can be
-              outvalued by a delicate 22K bangle, because karat multiplies
-              weight before the market price ever enters the calculation.
+              fifteen parts other metals. The remainder is other metals, which may include copper, silver, or zinc. The gold content is the main basis of a gold-buying offer.
             </p>
             <p>
               One warning about the terminology: in American usage, <em>karat</em>
@@ -168,34 +161,21 @@ export default function PurityAndWeightPage() {
             <p>
               The gram sidesteps the whole problem, which is why itemized
               assessments usually speak in grams: a stated weight in grams,
-              times a fineness, times a per-gram reference, is arithmetic
+              times a fineness, times a per-gram reference, times the buying rate, is arithmetic
               anyone can check on their phone.
             </p>
 
             <h2>What is deliberately excluded from the weight</h2>
             <p>
-              Stones, clasps, springs, pins, solder and cores all add mass
-              without adding precious metal. A proper valuation separates
-              them: gemstones are allowed for rather than bought as gold, and
-              steel mechanisms are excluded openly. This is why an itemized
-              figure and a single lump-sum figure for the same pile can
-              differ considerably — and why the itemized one deserves more of
-              your trust. What that assessment looks like in practice, stage
+              An item’s total weight may include stones, steel springs, and other non-gold components. Clasps and solder may also contain gold, sometimes at a different purity. We assess the materials and explain any weight deductions used in calculating your offer. What that assessment looks like in practice, stage
               by stage, is covered in <Link href="/how-it-works">how it works</Link>;
               what each category of item is assessed for is in{' '}
               <Link href="/what-we-buy">what we buy</Link>.
             </p>
 
-            <h2>The fifth factor: the reference price</h2>
+            <h2>Spot price and the buying rate</h2>
             <p>
-              Weight and purity are properties of your metal. The reference
-              price is a property of the day: precious metals trade
-              continuously, and any figure you are offered relates to the
-              market at the moment of assessment. The practical consequence
-              is simple — a valuation is a measurement with a timestamp, not
-              a permanent property of the piece. The measured facts (weight,
-              fineness) stay true; the money they convert to moves with the
-              market.
+              We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions.
             </p>
           </div>
 

@@ -97,7 +97,7 @@ export function GET(): Response {
 
   const body = `# ${brand.name}
 
-> Pureweight Gold Exchange buys gold and silver over the counter in Gainesville, Georgia. Jewellery, coins, bars and bullion are examined and weighed at the counter, with weight, fineness and the market reference explained before the customer decides whether to sell.
+> Pureweight Gold Exchange buys gold and silver over the counter in Gainesville, Georgia. Jewellery, coins, bars and bullion are examined and weighed at the counter, with assessed metal weight, purity, market reference, buying rate, and any deductions explained before the customer decides whether to sell.
 
 ## Official Website
 
@@ -129,7 +129,7 @@ ${base}/what-we-buy#silver
 
 Pureweight assesses silver jewellery and tableware, including sterling and 800 silver.
 
-Plated items are identified rather than represented as solid silver.
+Plated items are identified rather than represented as solid silver. PureWeight does not purchase gold-filled, rolled-gold, or plated items.
 
 ### Coins
 ${base}/what-we-buy#coins
@@ -153,7 +153,7 @@ The Pureweight process has four stages:
 
 1. Bring the items to the shop.
 2. Items are examined and weighed at the counter while the customer watches.
-3. Weight, purity and the applicable market reference are explained and an offer is provided.
+3. Assessed metal weight, purity, market reference, buying rate, and any deductions are explained and an offer is provided.
 4. The customer can accept the offer or take the items home.
 
 The business states that there is no obligation to sell and no charge simply for having items examined.

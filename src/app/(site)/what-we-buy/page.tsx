@@ -140,10 +140,7 @@ export default function WhatWeBuyPage() {
               cigarette cases, and broken spectacle frames from the era when
               frames were made properly. If it might be gold or silver, it is
               worth an assessment — the answer costs you a conversation.
-              Conversely, some convincing items contain nothing recoverable:
-              rolled gold, gold-filled pieces and costume jewelry imitate
-              the look without the metal. Being told clearly which is which is
-              precisely what the counter visit is for.
+              Gold-filled and rolled-gold items contain a layer of real gold bonded to a base metal, but they are not solid gold. Gold-plated items generally have a much thinner gold layer. We do not purchase gold-filled, rolled-gold, or plated items.
             </p>
 
             <h2>Before you visit</h2>

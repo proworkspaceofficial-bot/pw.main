@@ -52,9 +52,7 @@ export function TrustStatement() {
               transparent communication and professional handling.
             </p>
             <p className="mt-6 text-lead text-ash will-reveal">
-              You are shown the weight. You are shown the fineness. You are
-              shown how those two figures produce the number in front of you —
-              before you are asked to decide anything at all.
+              We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions.
             </p>
           </div>
         </div>

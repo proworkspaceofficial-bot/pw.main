@@ -8,7 +8,7 @@ const copy = opener("assay", {
   eyebrow: "Chapter 04 — Purity & Weight",
   heading: "Value is not guessed.",
   accent: "It is measured.",
-  lead: "Five things decide what a piece of gold is worth. Four of them can be established with an instrument. The fifth is the reference the business works to on the day.",
+  lead: "An offer depends on the item’s weight, purity, non-gold components, the current spot price, and the buying rate applied. We explain how those factors produce your offer.",
 });
 
 /**

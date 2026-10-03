@@ -50,12 +50,12 @@ const BEFORE_YOU_COME = [
     body: "Jewellery worn or broken, odd earrings, chains, coins, bars. Hallmarks help but are not needed — we establish purity ourselves.",
   },
   {
-    title: "Nothing is cleaned, cut or altered",
-    body: "Your items are examined and weighed as they are, in front of you, and handed straight back if you would rather keep them.",
+    title: "Testing explained before we proceed",
+    body: "We explain any testing needed before proceeding. If a test requires scratching, filing, or otherwise altering an item, we ask your permission first.",
   },
   {
     title: "You see the scale and the working",
-    body: "The weight, the purity we have established, and how the offer relates to the market price of the day are all shown to you before you decide.",
+    body: "We explain the assessed metal weight, purity, market reference, and buying rate used to calculate your offer, including any deductions.",
   },
   {
     title: "There is no obligation to sell",
