@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { BeamDivider, Eyebrow, Fact, Section } from '@/components/ui/primitives';
 import { brand, business, isVerified, structuredHours, type DayHours, type Verifiable } from '@/lib/site';
 import { pageMetadata } from '@/lib/seo';
@@ -7,8 +6,11 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata('contact', '/contact', {
   title: 'Contact',
   description:
-    'Contact PureWeight Gold Exchange to arrange a private valuation or to ask a question about gold weight, purity and evaluation.',
+    'Visit PureWeight Gold Exchange in Gainesville, Georgia to have your gold, silver, jewelry, coins, or bullion assessed and priced in person.',
 });
+
+const DIRECTIONS_URL =
+  'https://www.google.com/maps/search/?api=1&query=250%20John%20W%20Morrow%20Jr%20Pkwy%20%23121%2C%20Gainesville%2C%20GA%2030501';
 
 /**
  * CONTACT
@@ -31,14 +33,12 @@ export default function ContactPage() {
 
     The free-text line remains the fallback, and it is a real answer rather
     than a degraded one: "by appointment" is how this business may actually
-    work, and a grid would either lose that or invent hours to fill itself.
+    work, and a grid would either lose the nuance or invent hours to fill itself.
   */
   const week = structuredHours();
 
   const details: {
     label: string;
-    // All six rows are string facts. Indexing the whole business object would
-    // union in Verifiable<string[]> (social) and break Fact's inference.
     field: Verifiable<string>;
     link?: 'tel' | 'mailto';
     week?: DayHours[];
@@ -52,7 +52,8 @@ export default function ContactPage() {
       week: week.length > 0 ? week : undefined,
     },
     { label: 'Service area', field: business.serviceArea },
-    { label: 'Appointment process', field: business.appointmentProcess },
+    { label: 'Appointments', field: business.appointmentProcess },
+    { label: 'Payment', field: business.settlementMethods },
   ];
 
   return (
@@ -65,22 +66,25 @@ export default function ContactPage() {
               Speak with <span className="accent-italic text-gold-high/90">PureWeight</span>
             </h1>
             <p className="mt-8 max-w-md text-lead text-ivory/72">
-              For a purchase evaluation, bring your items to our Gainesville shop. For anything else — a
-              question about a hallmark, what to bring, or how the process works — get in touch and
-              we will answer plainly.
+              Visit PureWeight Gold Exchange in Gainesville, Georgia to have your gold, silver,
+              jewelry, coins, or bullion assessed and priced in person.
             </p>
 
             <BeamDivider className="mt-12 max-w-xs" />
 
-            <Link href="/contact" className="btn-primary mt-12">
-              <span className="relative z-10">Visit Our Shop</span>
-            </Link>
+            <a
+              href={DIRECTIONS_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="btn-primary mt-12"
+            >
+              <span className="relative z-10">Get Directions</span>
+            </a>
+            <p className="mt-4 text-sm text-ash">Located inside Ella&apos;s Gift Box.</p>
           </div>
 
           <div className="lg:col-span-7">
             <dl className="border-t border-gold-antique/16">
-              {/* Unverified rows are absent, label and all. A week block only
-                  exists once hours are verified, so it needs no extra guard. */}
               {details
                 .filter((item) => item.week || isVerified(item.field))
                 .map((item) => (
@@ -111,12 +115,29 @@ export default function ContactPage() {
                   </dd>
                 </div>
               ))}
+
+              <div className="grid gap-2 border-b border-gold-antique/12 py-7 sm:grid-cols-3 sm:items-baseline sm:gap-6">
+                <dt className="text-[0.66rem] tracking-[0.18em] text-ash uppercase">ID required</dt>
+                <dd className="text-sm text-ivory/78 sm:col-span-2">
+                  A valid government-issued photo ID is required for every sale.
+                </dd>
+              </div>
+
+              <div className="grid gap-2 border-b border-gold-antique/12 py-7 sm:grid-cols-3 sm:items-baseline sm:gap-6">
+                <dt className="text-[0.66rem] tracking-[0.18em] text-ash uppercase">Helpful documents</dt>
+                <dd className="text-sm leading-relaxed text-ivory/78 sm:col-span-2">
+                  Bring any receipts, appraisals, certificates, grading paperwork, original packaging,
+                  or other documentation you have. These can help us understand provenance,
+                  authenticity, or potential collectible value. If you do not have paperwork, bring
+                  the item itself and your photo ID.
+                </dd>
+              </div>
             </dl>
 
             <p className="mt-8 text-xs leading-relaxed text-ash">
-              {brand.shortName} does not provide binding purchase offers by telephone, email or through this
-              website. Purchase offers are established in person, after the item has been weighed and
-              examined at the shop.
+              {brand.shortName} may discuss an item and provide general information by telephone or
+              email, but any final purchase offer is made in person after the item has been examined,
+              weighed, and tested as needed.
             </p>
           </div>
         </div>

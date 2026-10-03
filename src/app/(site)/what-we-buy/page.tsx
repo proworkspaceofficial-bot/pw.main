@@ -3,25 +3,13 @@ import Link from 'next/link';
 import { Eyebrow, Section } from '@/components/ui/primitives';
 import { pageMetadata } from '@/lib/seo';
 
-/**
- * WHAT WE BUY — the dedicated page behind the nav item.
- *
- * The homepage section is the cinematic version; this page is the READABLE
- * one: a proper reference a first-time seller can sit with, and the page an
- * answer engine should cite when someone asks what a gold buyer will take.
- * Everything here is trade-standard knowledge in the site's voice. Business
- * promises — fees, timings, guarantees — appear nowhere; those remain
- * governed by the verified-facts system and live on the contact page only
- * once confirmed.
- */
-
 const TITLE = 'What We Buy — Gold, Silver, Coins & Bullion';
 const DESCRIPTION =
-  'What a gold buyer will actually take: jewelry in any condition, sterling and continental silver, sovereigns and bullion coins, and cast or minted bars — and what decides the value of each.';
+  'What PureWeight buys in Gainesville: gold jewelry, sterling silver, U.S. and world precious-metal coins, and bars or bullion — and what helps determine the value of each.';
 
 export const metadata: Metadata = pageMetadata(
-  "what-we-buy",
-  "/what-we-buy",
+  'what-we-buy',
+  '/what-we-buy',
   { title: TITLE, description: DESCRIPTION },
 );
 
@@ -37,120 +25,104 @@ export default function WhatWeBuyPage() {
           </h1>
           <p className="mt-8 max-w-xl text-lead text-ivory/72">
             At our Gainesville, Georgia shop, four categories cover nearly everything that comes across a
-            precious-metal counter. Here is what belongs in each, what decides
-            its value, and what is worth knowing before you bring yours in.
+            precious-metal counter. Here is what belongs in each, what can affect its value, and what is
+            worth knowing before you bring yours in.
           </p>
 
           <div className="article-body mt-14">
-            <h2 id="jewellery" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Gold jewelry — in any condition</h2>
+            <h2 id="jewellery" style={{ scrollMarginTop: 'calc(var(--nav-h) + 2rem)' }}>
+              Gold jewelry — in any condition
+            </h2>
             <p>
-              Jewelry is what most people actually own: chains, rings,
-              bracelets, earrings, pendants, and the drawer of odds and ends
-              that accumulates around them. The condition bar is far lower than
-              sellers expect. A snapped chain contains exactly as much gold as
-              an intact one. A single earring, a bent brooch pin, a ring whose
-              stone fell out years ago — none of these lose their metal value
-              by being broken, and none of them need repairing first. A repair
-              almost never returns more than it costs.
+              Jewelry is what most people actually own: chains, rings, bracelets, earrings,
+              pendants, and the drawer of odds and ends that accumulates around them. A snapped chain
+              contains exactly as much gold as an intact one. A single earring, a bent brooch pin,
+              or a ring whose stone fell out years ago can still have real metal value. Nothing needs
+              to be repaired before you bring it in.
             </p>
             <p>
-              What decides jewelry&apos;s value is not how it looks but what
-              it measures: the karat of the alloy, the weight of actual gold
-              once stones and steel springs are allowed for, and the market
-              reference on the day. A heavy 9K chain can be worth less than a
-              much lighter 22K bangle, because a 9K alloy is only nine parts
-              gold in twenty-four. If the karat marks on your pieces are worn
-              or missing, that is normal — fineness is then established by
-              examination rather than read off the metal. Our guide to{' '}
-              <Link href="/purity-and-weight">purity and weight</Link> explains
-              exactly how those marks work.
+              What decides jewelry&apos;s metal value is not how it looks but what it measures: the karat
+              of the alloy, the weight of actual gold once stones and non-gold components are allowed
+              for, and the spot price at the time of the in-person assessment. If the karat marks on
+              your pieces are worn or missing, that is normal — the metal can be tested rather than
+              assumed. Our guide to <Link href="/purity-and-weight">purity and weight</Link> explains
+              how those measurements work.
             </p>
             <p>
-              Two things are worth doing before a visit: nothing, and
-              specifically not cleaning. Polishing risks damaging stones and
-              softening old settings, and on antique pieces it can remove
-              patina that matters. Bring items exactly as they are.
+              There is usually no benefit to cleaning or repairing jewelry before bringing it in.
+              Polishing can damage stones, soften old settings, or remove patina that may matter on
+              an antique piece. Bring items as they are.
             </p>
 
-            <h2 id="silver" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Silver — hallmarked, continental, and plate</h2>
+            <h2 id="silver" style={{ scrollMarginTop: 'calc(var(--nav-h) + 2rem)' }}>
+              Silver — sterling, coin silver, and foreign grades
+            </h2>
             <p>
-              Silver is weighed and assessed on the same basis as gold, against
-              its own market price. The pieces that carry real value are solid
-              silver: sterling (925 parts per thousand, the standard for
-              British hallmarked silver), continental grades such as 800 and
-              835, and older coin silver. Jewelry, cutlery, tableware,
-              candlesticks and dressing-table sets all qualify if the metal
-              itself is solid.
+              We buy solid silver, including sterling marked 925, sterling jewelry, flatware and
+              serving pieces, coin silver, and many foreign grades such as 800 or 835 silver.
+              Weighted sterling items can also contain recoverable silver, although non-silver fill
+              or internal components must be allowed for when the item is assessed.
             </p>
             <p>
-              The honest complication is plate. Electroplated pieces — often
-              marked EPNS, EPBM, or &ldquo;silver plated&rdquo; — carry only a
-              microscopically thin layer of silver over a base metal, and
-              contain almost no recoverable silver at all. A responsible buyer
-              identifies plate plainly and says so, rather than weighing it
-              with the solid pieces and letting the seller assume otherwise.
-              If you are unsure which you have, bring it anyway: telling the
-              difference is part of the assessment, not your homework.
+              Silver-plated items contain only a thin layer of silver over a base metal and are not
+              something PureWeight purchases. If you are not sure whether an item is solid silver or
+              plated, bring it in — identifying what you have is part of the assessment.
             </p>
 
-            <h2 id="coins" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Coins — weighed once, considered twice</h2>
+            <h2 id="coins" style={{ scrollMarginTop: 'calc(var(--nav-h) + 2rem)' }}>
+              Coins — metal value first, collectible value considered
+            </h2>
             <p>
-              Precious-metal coins are looked at in two distinct ways, and the
-              difference can be worth real money to you. The first reading is
-              bullion value: the coin&apos;s fine metal content multiplied by
-              the market reference. A full gold sovereign, for example, has a
-              fixed specification — 7.99 grams of 22K gold, of which about
-              7.32 grams is pure — so its floor value moves directly with the
-              gold price. Krugerrands, Britannias, and most modern bullion
-              issues work the same way.
+              American Gold Eagles, American Silver Eagles, Morgan and Peace dollars, pre-1933 U.S.
+              gold, 90% U.S. silver coins, and world bullion or precious-metal coins are all examples
+              of items we may see. Metal value begins with the coin&apos;s actual precious-metal content
+              and the spot price at the time of the in-person assessment.
             </p>
             <p>
-              The second reading is collector value. Some coins are worth more
-              than their metal because of date, mint mark, rarity or
-              condition, and melting one down would destroy that premium. The
-              professional obligation is to tell you when the coin in your
-              hand is worth more as a coin — older U.S. and world proof sets, low-
-              mintage years and unusual strikes deserve that check. A pile of
-              inherited coins should never be priced as scrap by default.
+              We also consider whether a coin may have collectible value beyond its melt value. If we
+              believe a coin may be worth more as a collectible than what we can justify paying for its
+              metal content, we will tell you rather than simply treat it as scrap. This is not a formal
+              numismatic appraisal, but our goal is to help customers understand the potential value in
+              what they bring us and avoid overlooking an obvious collectible premium.
             </p>
 
-            <h2 id="bullion" style={{ scrollMarginTop: "calc(var(--nav-h) + 2rem)" }}>Bars and bullion — the stamp is checked, not trusted</h2>
+            <h2 id="bullion" style={{ scrollMarginTop: 'calc(var(--nav-h) + 2rem)' }}>
+              Bars and bullion — the stamp is checked, not simply trusted
+            </h2>
             <p>
-              Investment bars, from one-gram minted wafers to cast kilobars,
-              state their own weight and fineness on their face, usually with
-              a refiner&apos;s mark and a serial number. Those stamps are
-              claims, and claims get verified: the stated weight is checked on
-              the scale, and the fineness is verified against the metal rather
-              than assumed from the engraving. Recognized bullion in good
-              order is handled on its own terms — as investment metal with a
-              published specification — rather than being treated as scrap.
+              Investment bars and rounds state their own weight and fineness, usually with a refiner&apos;s
+              mark and sometimes a serial number. Those markings are useful, but the physical weight
+              and metal still need to agree with what is stamped on the piece. Recognized bullion is
+              assessed on its own terms rather than automatically treated as scrap.
             </p>
             <p>
-              Bars without paperwork, or older bars from refiners no longer
-              operating, are still worth bringing in. The assessment simply
-              leans harder on measurement, which is how every serious
-              valuation works anyway. The process is the same one described
-              step by step in <Link href="/how-it-works">how it works</Link>.
+              Original packaging, assay cards, receipts, or certificates can be useful when you have
+              them, particularly with investment products and collectible coins. If you do not have
+              paperwork, the item can still be examined in person.
             </p>
 
-            <h2>What sits outside the four categories</h2>
+            <h2>Other items that may contain precious metal</h2>
             <p>
-              Some items contain precious metal without being obvious about
-              it: older watch cases, dental gold, medals, thimbles,
-              cigarette cases, and broken spectacle frames from the era when
-              frames were made properly. If it might be gold or silver, it is
-              worth an assessment — the answer costs you a conversation.
-              Gold-filled and rolled-gold items contain a layer of real gold bonded to a base metal, but they are not solid gold. Gold-plated items generally have a much thinner gold layer. We do not purchase gold-filled, rolled-gold, or plated items.
+              Older watch cases, dental gold, medals, thimbles, cigarette cases, and other unusual
+              objects can contain gold or silver even when that is not obvious at first glance. If you
+              think an item may contain precious metal, bring it in and we can take a look.
+            </p>
+            <p>
+              Gold-filled, rolled-gold, and gold-plated items are not solid gold and are not items
+              PureWeight purchases. Likewise, we do not purchase silver-plated items.
             </p>
 
             <h2>Before you visit</h2>
             <p>
-              Nothing needs sorting, cleaning or valuing beforehand, and there
-              is no minimum worth bringing. If you want to prepare anyway, the
-              most useful step is reading the{' '}
-              <Link href="/faq">frequently asked questions</Link> — karat,
-              troy ounces and hallmarks in plain language — so the figures you
-              hear at the counter already make sense.
+              No item is too small for us to look at. Bring your items as they are and bring a valid
+              government-issued photo ID, which is required for every sale. If you have receipts,
+              appraisals, certificates, grading paperwork, original packaging, or other supporting
+              documentation, bring that too — it can help us understand provenance, authenticity, or
+              potential collectible value.
+            </p>
+            <p>
+              If you want to prepare further, the <Link href="/faq">frequently asked questions</Link>{' '}
+              explain karat, troy weight, hallmarks, and what to expect at the counter in plain language.
             </p>
           </div>
 

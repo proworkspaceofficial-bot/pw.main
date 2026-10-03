@@ -11,23 +11,23 @@
     "imageAlt": "A wide diamond-set gold bangle photographed against black, its stones catching a single warm light."
   },
   "silver": {
-    "summary": "Hallmarked silver, from jewelry to tableware.",
-    "body": "Silver is weighed and assessed on the same basis as gold, against its own market price. Plated items contain very little recoverable silver. We identify them clearly and do not purchase plated items.",
+    "summary": "Sterling, coin silver, and other solid-silver items.",
+    "body": "We buy solid silver, including sterling marked 925, jewelry, flatware, serving pieces, coin silver, and many foreign grades such as 800 or 835 silver. Silver-plated items are not purchased.",
     "points": [
-      "Sterling and 800 silver",
-      "Jewelry, cutlery, tableware",
+      "Sterling and 925 silver",
+      "Coin silver and foreign grades",
       "Plated items not purchased"
     ],
     "image": "/img/silver.jpg",
     "imageAlt": "A silver filigree butterfly pendant among fine chains and carved shell blossoms, on black."
   },
   "coins": {
-    "summary": "Precious-metal coins, whether collected or inherited.",
-    "body": "Coins are looked at twice: once for the metal in them, and once for whether the coin itself is worth more than that metal. Where the second is true you are told so, rather than paid for the weight.",
+    "summary": "U.S. and world precious-metal coins, whether collected or inherited.",
+    "body": "Coins are assessed for their precious-metal content while also considering whether an obvious collectible premium may exceed melt value. If we believe a coin may be worth more as a collectible than for its metal alone, we will tell you.",
     "points": [
-      "Sovereigns and krugerrands",
-      "Pre-decimal silver",
-      "Collections and single coins"
+      "American Gold & Silver Eagles",
+      "Morgan, Peace & U.S. silver coins",
+      "World coins and collections"
     ],
     "image": "/img/coins.jpg",
     "imageAlt": "A hammered gold sovereign, its shield-and-Tudor-rose reverse struck in deep relief, lit against a dark ground."
